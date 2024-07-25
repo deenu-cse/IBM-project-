@@ -1,0 +1,38 @@
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem; 
+    width: 30%; 
+    max-width: 30%; 
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        margin-left: 0; 
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
+
+.social-links__container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #ffffff; 
+    margin-top: 0; 
+}
+
+.social-links__title {
+    font-size:1.775rem;
+    line-height: 1.6; 
+    margin: 15px 0px 0px 0px;
+}
+
+.social-links__nav {
+    align-self: center; 
+    text-align: start;
+    margin-top: 1.5rem; 
+    font-size: 1.25rem; 
+    line-height: 1.6;
+}

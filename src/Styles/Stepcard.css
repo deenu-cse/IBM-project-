@@ -1,0 +1,33 @@
+
+.step-card {
+    display: flex;
+    gap: 1.25rem; 
+    padding: 1.5rem 1.875rem;
+    margin-top: 1.75rem; 
+    background-color: #4a5568; 
+    max-width: 100%; 
+    flex-wrap: wrap;
+    color: white;
+}
+
+.step-card__number {
+    font-size: 2.5rem; 
+    letter-spacing: -0.05em; 
+    line-height: 2.5rem; 
+    align-self: flex-start;
+}
+
+.step-card__description {
+    flex: 1; 
+    font-size: 1.25rem; 
+    letter-spacing: -0.025em; 
+    line-height: 1.5; 
+    max-width: 100%; 
+    font-weight: 600;
+}
+
+@media screen and (max-width: 660px) {
+    .step-card{
+        width: 98%;
+    }
+  }

@@ -1,0 +1,13 @@
+
+.contact-info {
+    flex: 1; 
+    align-self: flex-start; 
+    margin-top: 0.75rem; 
+    font-size: 1.15rem; 
+    line-height: 1.6; 
+    color: #ffffff; 
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem; 
+}

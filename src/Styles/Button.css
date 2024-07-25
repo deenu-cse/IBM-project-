@@ -1,0 +1,35 @@
+.auth-buttons {
+    display: flex;
+    gap: 0.875rem;
+}
+
+.auth-buttons button {
+    white-space: nowrap; 
+    border-radius: 40px; 
+    cursor: pointer;
+    outline: none;
+}
+
+.login-button {
+    background-color: #ffc107; 
+    color: black; 
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 0rem 2rem; 
+    max-height: 40px;
+}
+
+.signup-button {
+    padding: 0rem 2rem; 
+    color: #ffc107; 
+    border: 1px solid #ffc107; 
+    background-color: transparent; 
+    max-height: 40px;
+}
+
+@media (max-width: 768px) {
+    .auth-buttons button {
+        padding: 0.875rem 1.25rem; 
+    }
+}

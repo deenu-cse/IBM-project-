@@ -1,0 +1,43 @@
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem 5rem 1.5rem;
+    margin-top: 4rem; 
+    width: 85%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .features-section {
+        padding: 2rem 0.625rem 3rem;
+    }
+}
+
+.features-section__title {
+    font-size: 2.5rem; 
+    letter-spacing: -0.05em; 
+    line-height: 2.5rem; 
+    color: #ff9900; 
+    margin: 0;
+    margin-bottom: 1.05rem; 
+    max-width: 100%; 
+
+}
+
+.features-section__cards {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 4.5rem; 
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .features-section__cards {
+        flex-direction: column; 
+        gap: 2rem; 
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}

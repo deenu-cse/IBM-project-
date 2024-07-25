@@ -1,0 +1,105 @@
+.hero-section {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.25rem; 
+    max-width: 1200px; 
+    min-height: 600px; 
+    @media (max-width: 768px) {
+        margin-top: 0.625rem; 
+        max-width: 100%;
+    }
+}
+  
+  .background-image {
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem 2.5rem; 
+    max-width: 100%; 
+    z-index: 999;
+  }
+  
+  .content h1 {
+    margin-top: 16rem; 
+    font-size: 2.25rem; 
+    max-width: 100%;
+    color: #ffc003;
+  }
+  
+  .content p {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #ffc003; 
+    max-width: 100%; 
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 0.875rem; 
+    margin-top: 1.5rem;
+  }
+  
+  .buttons button {
+    border-radius: 40px; 
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .buttons .join-button {
+    background-color: #ffc107; 
+    color: #252525;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0rem 1.5rem;
+  }
+  
+  .buttons .learn-button {
+    padding: 1rem 2rem; 
+    color: #ffc107; 
+    border: 2px solid #ffc107; 
+    background-color: transparent; 
+  }
+  
+  .buttons .learn-button:hover{
+    background-color: #252525;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .buttons .learn-button {
+      padding: 1rem 1.25rem; 
+    }
+    .background-image{
+        width: 98%;
+        margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 426px) { 
+  .background-image{
+        width: 100%;
+    }
+    .buttons .join-button{
+        font-size: 12px;
+    }
+    .buttons .learn-button{
+        font-size: 12px;
+    }
+  }

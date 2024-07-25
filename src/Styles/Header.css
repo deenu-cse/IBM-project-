@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem 0; 
+    margin: 0 auto;
+  }
+  
+  .header-content {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1rem 1.5rem; 
+    width: 90%;
+    border-radius: 10px 10px 0px 0px; 
+    background-color: #222222; 
+    max-width: 1200px; 
+  }
+  
+  .header-title {
+    flex: 1; 
+    margin-top: auto;
+    font-size: 1.875rem; 
+    font-weight: 600;
+    color: #ffc107; 
+  }
+  
+  @media (max-width: 768px) {
+    .header-content {
+      flex-wrap: wrap; 
+      padding: 1rem 0.625rem;
+      max-width: 100%;
+    }
+  
+    .header-title {
+      font-size: 1.5rem; 
+    }
+  }
+  @media (max-width: 426px) {
+    .header{
+        width: 100%;
+    }
+  }
+  
+  

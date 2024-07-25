@@ -1,0 +1,28 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+}
+
+.app-container .main-content {
+    width: 100%;
+    max-width: 1200px; 
+    padding: 2rem 1rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .app-container .main-content {
+        padding: 2rem 0.5rem;
+    }
+}
