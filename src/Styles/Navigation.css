@@ -32,8 +32,8 @@
   
   .menu-button {
     position: absolute;
-    top: 0.3rem;
-    right: 0.5rem;
+    top: 1rem;
+    right: 1rem;
     border-radius: 10px;
     background-color: #656262;
     color: #fff;
